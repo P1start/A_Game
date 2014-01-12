@@ -193,6 +193,7 @@ class Unit implements Drawable {
   }
   
   void move(Coords loc) {
+    // TODO: get this to work
     if (parts.contains(loc)) {
       int loci = parts.indexOf(loc);
       int headi = parts.indexOf(head);
