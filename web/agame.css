@@ -1,0 +1,22 @@
+
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+  min-height: 100%;
+}
+
+h1, p {
+  color: #333;
+}
+
+#game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
